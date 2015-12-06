@@ -1,0 +1,40 @@
+\documentclass[a4paper, 11pt]{article}
+ 
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[frenchb]{babel}
+\usepackage{makecell}
+\usepackage{listings}
+\usepackage[dvipsnames]{xcolor}
+
+\lstset{language=C,
+	 	basicstyle=\ttfamily,
+		keywordstyle=\ttfamily\textcolor{RubineRed},
+		identifierstyle=,columns=fullflexible,
+		commentstyle=\textcolor{OliveGreen},
+		showstringspaces=false, breaklines=true,tabsize=4}
+
+\usepackage{graphicx} %pour les images
+
+\usepackage{xcolor}
+
+\setcounter{tocdepth}{3}
+\definecolor{Zgris}{rgb}{0.87,0.85,0.85}
+
+\newsavebox{\BBbox}
+\newenvironment{DDbox}[1]{
+\begin{lrbox}{\BBbox}\begin{minipage}{\linewidth}}
+{\end{minipage}\end{lrbox}\noindent\colorbox{Zgris}{\usebox{\BBbox}} \\
+[.5cm]}
+
+\begin{document}
+ 
+\title{PROJET: Sodelisation et Verification du Comportement de Vehicules Aautomatiques sur un Pont a Voie Unique}
+\author{Ilyas Toumlilt\\Maxime Bittan\\Redha Gouicem}
+\date{05/12/2015}
+ 
+\maketitle
+
+Empty File
+
+\end{document}
