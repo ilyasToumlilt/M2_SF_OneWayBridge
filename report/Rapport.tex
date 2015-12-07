@@ -6,6 +6,7 @@
 \usepackage{makecell}
 \usepackage{listings}
 \usepackage[dvipsnames]{xcolor}
+\usepackage{graphicx}
 
 \lstset{language=C,
 	 	basicstyle=\ttfamily,
@@ -35,11 +36,33 @@
  
 \maketitle
 
-\section{Q1.1:}
-Interfaces :\\
-Entre CTRLP et VAA : askA (transition) et exitVAA (transition)\\
-Entre CTRLP et VAB : askB (transition) et exitVAB (transition)\\
-Entre P et VAA : goToBridge (place) et exitBridge (place)\\
-Entre P et VAB : goToBridge (place) et exitBridge (place)\\
+\section{Question 1.1}
+Les interfaces entre les différents composants sont les suivantes :\\
+\begin{itemize}
+\item Entre CTRLP et VAA : askA (transition) et exitVAA (transition)\\
+\item Entre CTRLP et VAB : askB (transition) et exitVAB (transition)\\
+\item Entre P et VAA : goToBridge (place) et exitBridge (place)\\
+\item Entre P et VAB : goToBridge (place) et exitBridge (place)\\
+\end{itemize}
 
+\section{Question 1.2}
+\includegraphics[scale=0.35]{VAA.png}
+
+
+\section{Question 1.3}
+\includegraphics[scale=0.35]{VAB.png}
+
+\section{Question 1.4}
+\includegraphics[scale=0.35]{P.png}
+Afin de verifier le comportement de ce composant, nous avons verifié les propriétés suivantes :
+\begin{itemize}
+\item Le pont ne contient jamais plus de N éléments. Voir fichier pp1.txt.
+\item A une position donné du pont, il n'y a qu'un seul vehicule. Voir fichier pp2.txt.
+\end{itemize}
+
+\section{Question 1.5}
+\includegraphics[scale=0.35]{CTRLP.png}
+
+\section{Question 1.6}
+\includegraphics[scale=0.35]{bridge.png}
 \end{document}

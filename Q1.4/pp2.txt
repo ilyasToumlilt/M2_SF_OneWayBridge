@@ -1,0 +1,4 @@
+query node (card(bridge:Field(Field[0]==1))>1 or
+      	    card(bridge:Field(Field[0]==2))>1 or
+      	    card(bridge:Field(Field[0]==3))>1 or)
+      	   
