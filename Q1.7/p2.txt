@@ -1,1 +1,1 @@
-empty file
+G((card(emptyPlaces)+card(bridge))=2)

@@ -1,1 +1,3 @@
-empty file
+implies(card(VAA_IN)=1, AF(card(VAA_OUT)=1))
+implies(card(VAB_IN)=2, AF(card(VAB_OUT)=2))
+
